@@ -19,16 +19,16 @@ const Footer = () => {
       <div className={styles["footer-icons"]}>
         <span>Follow us on</span>
         <div className={styles.icons}>
-          <a href="!#">
+          <a href="https://ru-ru.facebook.com/" target="_blank" rel="noreferrer">
             <FaFacebookSquare className={styles.icon} />
           </a>
-          <a href="!#">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
             <FaLinkedin className={styles.icon} />
           </a>
-          <a href="!#">
+          <a href="https://twitter.com/" target="_blank" rel="noreferrer">
             <FaTwitterSquare className={styles.icon} />
           </a>
-          <a href="!#">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
             <FaInstagramSquare className={styles.icon} />
           </a>
         </div>
