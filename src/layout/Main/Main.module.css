@@ -3,3 +3,8 @@
   min-height: calc(100vh - 74px - 86px);
   background-color: #111212;
 }
+@media (max-width: 768px){
+  .main{
+    min-height: calc(100vh - 74px - 152.7px);
+  }
+}
