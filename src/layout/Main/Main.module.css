@@ -1,0 +1,5 @@
+.main {
+  overflow: hidden;
+  min-height: calc(100vh - 74px - 86px);
+  background-color: #111212;
+}

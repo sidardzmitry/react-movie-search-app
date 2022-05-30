@@ -1,0 +1,32 @@
+.card {
+  background-color: #323435;
+  box-shadow: 0 2px 12px rgb(153, 17, 153);
+}
+.card-img {
+  max-height: 450px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 25px 10px 0 15px;
+}
+.card-title {
+  margin: 0;
+  color: #eaebed;
+}
+.card-year {
+  color: #b1b1b1;
+}
+.card-text {
+  margin-top: 10px;
+  color: #eaebed;
+}
+@media (max-width: 580px) {
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}

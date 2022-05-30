@@ -1,0 +1,13 @@
+.search-button {
+  padding: 5px 10px;
+  background: #991199;
+  border: none;
+  border-radius: 4px;
+  color: #eaebed;
+  border: 2px solid #991199;
+  transition: 0.2s;
+}
+.search-button:hover {
+  color: #eaebed;
+  background: #323435;
+}

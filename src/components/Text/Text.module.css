@@ -1,0 +1,15 @@
+.box-text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.text {
+  color: #eaebed;
+  text-shadow: 0 0 15px rgb(153, 17, 153), 0 0 10px rgb(153, 17, 153);
+}
+@media (max-width: 768px) {
+  .text {
+    font-size: 20px;
+  }
+}
