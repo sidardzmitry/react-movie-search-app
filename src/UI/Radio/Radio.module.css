@@ -3,6 +3,9 @@
   justify-content: center;
   align-items: center;
 }
+.radio-label:hover{
+  cursor: pointer;
+}
 .radio-text {
   color: #eaebed;
   margin: 0 10px 0px 10px;

@@ -1,4 +1,4 @@
-import styles from "./Movies.module.css";
+import styles from "./Movie.module.css";
 
 const Movie = (props) => {
   const {

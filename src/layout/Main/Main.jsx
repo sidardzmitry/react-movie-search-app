@@ -29,7 +29,7 @@ const Main = () => {
   };
 
   useEffect(() => {
-    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&`)
+    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}`)
       .then((response) => response.json())
       .then((data) => {
         setMovies(data.Search);

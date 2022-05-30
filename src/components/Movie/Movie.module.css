@@ -8,7 +8,7 @@
 .card-body {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 25px 10px 0 15px;
 }
 .card-title {
